@@ -45,8 +45,8 @@ const run = async () => {
     filePath: "../sample.html",
     options: {
       phraseLength: 200,
-      includeLinks: true,
-      includeImages: true,
+      includeLinks: false,
+      includeImages: false,
     },
   });
 };
