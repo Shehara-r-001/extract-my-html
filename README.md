@@ -55,3 +55,5 @@ Example:
   includeImages: true,
 }
 ```
+
+(Some content of the README.md has been generated using AI)
