@@ -145,7 +145,7 @@ const generateExtractedPhrase = ({ document, length }: ExtractPhraseParams) => {
 const extractMetaData = ({ document, options }: ExtractMetaDataParams) => {
   const { includeLinks, includeImages } = options;
   return {
-    title: getMetaContent({ document, name: "title" }),
+    title: getTextContent({ document, selector: "title" }),
     date: getMetaContent({ document, name: "date" }),
     author: getMetaContent({ document, name: "author" }),
     phrase: generateExtractedPhrase({ document, length: options.phraseLength }),
